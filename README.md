@@ -3,8 +3,6 @@
 
 > Project to check diary activities and registry.
 
-### Ajustes e melhorias
-
 ## 💻 Requirements
 
 Before to start, first verify to requirements:
