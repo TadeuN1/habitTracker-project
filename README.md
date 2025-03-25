@@ -3,13 +3,6 @@
 
 > Project to check diary activities and registry.
 
-## 💻 Requirements
-
-Before to start, first verify to requirements:
-
-- Languages:  `JavaScript, HTML and CSS, Figma`
-- OS `<Windows / Linux / Mac>`
-
 ## ☕ HOW TO USE HABIT TRACKER ?!
 
 Acess: https://habittrackerdaily.vercel.app/
