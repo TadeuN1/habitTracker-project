@@ -22,3 +22,16 @@ git clone https://github.com/TadeuN1/habitTracker-project.git
 cd habitTracker-project
 # só abrir index.html ou
 npx serve .
+```
+
+## 📁 Estrutura
+```
+/
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+```
+
+## 🙏 Créditos
+Baseado no layout NLW Setup da Rocketseat, com evoluções próprias de persistência e deploy.
