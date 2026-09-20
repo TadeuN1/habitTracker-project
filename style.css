@@ -86,7 +86,7 @@ input{
   width: 64px;
   height: 64px;
   border-radius: 8px;
-  border: 2 px solid #27272A;
+  border: 2px solid #27272A;
   background: #18181B;
 }
 input:checked{
@@ -95,7 +95,7 @@ input:checked{
 }
 
 @media (max-width: 570px){
-  button.div{
-    display: none;
-  }
+  header button div{ display: none; }
+  #form-habits{ padding: 182px 24px 24px; }
+  .days{ gap: 24px; }
 }
