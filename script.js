@@ -6,18 +6,18 @@ button.addEventListener('click', add);
 form.addEventListener('change', save);
 
 function getToday() {
-  return new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' });
+  return new Date().toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit' });
 }
 
 function add(){
   const today = getToday();
   const dayExists = nlwSetup.dayExists(today);
   if(dayExists) {
-    toggleMessage('Dia já incluso 🔴', true);
+    toggleMessage('Day already logged 🔴', true);
     return;
   }
   nlwSetup.addDay(today);
-  toggleMessage('Adicionado com sucesso 🟢', false);
+  toggleMessage('Added successfully 🟢', false);
 }
 
 function toggleMessage(msg, isError = false) {

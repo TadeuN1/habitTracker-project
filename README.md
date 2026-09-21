@@ -2,29 +2,29 @@
 
 ![preview](./assets/habittracker.png)
 
-> App web para registrar hábitos diários (correr, água, alimentação...) com check-in por dia e persistência local.
+> Web app to track daily habits (running, water, food...) with per-day check-in and local persistence.
 
-**Demo ao vivo:** https://habittrackerdaily.vercel.app/
+**Live demo:** https://habittrackerdaily.vercel.app/
 
 ## ✨ Features
-- [x] Adicionar dia atual com 1 clique
-- [x] Check-in por hábito (🏃 💧 🍎 💊 🤸)
-- [x] Persistência em localStorage (sem backend)
-- [x] Layout responsivo + dark mode
-- [ ] Roadmap: backend FastAPI para sincronizar + login
+- [x] Add the current day with 1 click
+- [x] Per-habit check-in (🏃 💧 🍎 💊 🤸)
+- [x] localStorage persistence (no backend)
+- [x] Responsive layout + dark mode
+- [ ] Roadmap: FastAPI backend for sync + login
 
 ## 🛠️ Stack
-HTML5, CSS3, JavaScript Vanilla, NLWSetup (UI calendar), Vercel
+HTML5, CSS3, Vanilla JavaScript, NLWSetup (UI calendar), Vercel
 
-## 🚀 Como rodar local
+## 🚀 Run locally
 ```bash
 git clone https://github.com/TadeuN1/habitTracker-project.git
 cd habitTracker-project
-# só abrir index.html ou
+# just open index.html or
 npx serve .
 ```
 
-## 📁 Estrutura
+## 📁 Structure
 ```
 /
 ├── index.html
@@ -33,5 +33,5 @@ npx serve .
 └── assets/
 ```
 
-## 🙏 Créditos
-Baseado no layout NLW Setup da Rocketseat, com evoluções próprias de persistência e deploy.
+## 🙏 Credits
+Based on Rocketseat's NLW Setup layout, with custom persistence and deploy improvements.
